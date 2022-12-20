@@ -17,7 +17,7 @@ Function Get-WindowsServerBuildsList {
             $UpdateHistoryNavLinks = $NavLinks | ? { $_.outerHTML -match "Windows Server" } | Select -First 1
         }
 
-        $SectionFirsts = $UpdateHistoryNavLinks | Sort -Unique outerHTML,href | Sort @{E={$NavLinks.IndexOf($_)}}
+        $SectionFirsts = $UpdateHistoryNavLinks | Sort -Unique @{E={([Xml]($_.outerHTML)).a."#text"}},href | Sort @{E={$NavLinks.IndexOf($_)}}
         
         $Sections = [Hashtable][Ordered]@{}
         For ($i=0 ; $i -lt @($SectionFirsts).Count ; $i++) {
@@ -59,7 +59,7 @@ Function Get-WindowsServerBuildsList {
                     If (![String]::IsNullOrEmpty($BuildNumber) -and $Versions[$VersionNumber].Build -notcontains $BuildNumber) {
                         $Versions[$VersionNumber].Add([PSCustomObject][Ordered]@{
                                 Build = $BuildNumber
-                                Date = ($regex.groups | ? { $_.Name -eq "date" }).Value
+                                Date = ([DateTime]::Parse(($regex.groups | ? { $_.Name -eq "date" }).Value)).ToString("yyyy/MM/dd")
                                 KB = ($regex.groups | ? { $_.Name -eq "kb" }).Value
                                 OutOfBand = $V -match "out\-of\-band"
                             }
