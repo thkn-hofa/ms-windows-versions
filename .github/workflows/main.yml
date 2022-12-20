@@ -1,0 +1,22 @@
+name: "Update MS Windows versions dictionary"
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 5 * * *"
+
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Crawl versions and create dictionary
+        shell: pwsh
+        run: |
+          Get-WindowsServerBuildsList.ps1 | ConvertTo-Json -Depth 10 | Out-File -Force -Confirm:$false -FilePath ms-windows-server-verions.json
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: automatic update
