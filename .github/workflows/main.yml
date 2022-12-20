@@ -16,7 +16,7 @@ jobs:
       - name: Crawl versions and create dictionary
         shell: pwsh
         run: |
-          Get-WindowsServerBuildsList.ps1 | ConvertTo-Json -Depth 10 | Out-File -Force -Confirm:$false -FilePath ms-windows-server-verions.json
+          .\Get-WindowsServerBuildsList.ps1 | ConvertTo-Json -Depth 10 | Out-File -Force -Confirm:$false -FilePath ms-windows-server-verions.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: automatic update
