@@ -62,6 +62,7 @@ Function Get-WindowsServerBuildsList {
                                 Date = ([DateTime]::Parse(($regex.groups | ? { $_.Name -eq "date" }).Value)).ToString("yyyy/MM/dd")
                                 KB = ($regex.groups | ? { $_.Name -eq "kb" }).Value
                                 OutOfBand = $V -match "out\-of\-band"
+                                Preview = $V -match "preview"
                             }
                         )
                     }
