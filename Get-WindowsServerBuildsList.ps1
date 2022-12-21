@@ -17,7 +17,7 @@ Function Get-WindowsServerBuildsList {
             $UpdateHistoryNavLinks = $NavLinks | ? { $_.outerHTML -match "Windows Server" } | Select -First 1
         }
 
-        $SectionFirsts = $UpdateHistoryNavLinks | Sort -Unique @{E={([Xml]($_.outerHTML)).a."#text"}},href | Sort @{E={$NavLinks.IndexOf($_)}}
+        $SectionFirsts = $UpdateHistoryNavLinks | Sort-Object-Unique @{E={([Xml]($_.outerHTML)).a."#text"}},href | Sort-Object@{E={$NavLinks.IndexOf($_)}}
         
         $Sections = [Hashtable][Ordered]@{}
         For ($i=0 ; $i -lt @($SectionFirsts).Count ; $i++) {
