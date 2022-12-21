@@ -9,4 +9,4 @@ This will list only server 2016 and higher because lower versions didn't work wi
 
 ## Current version and build
 
-Running ```Get-CurrentWindowsServerVersion.ps1``` will query the registry and the automatically generated list in this repository to get the current build version and date for a Windows Server.f
+Running ```Get-CurrentWindowsServerVersion.ps1``` will query the registry and the automatically generated list in this repository to get the current build version and date for a Windows Server.
