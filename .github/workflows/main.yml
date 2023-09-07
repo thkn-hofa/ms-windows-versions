@@ -1,4 +1,4 @@
-name: "Update MS Windows versions dictionary"
+name: "Update MS Windows versions dictionaries"
 on:
   push:
     branches:
@@ -18,6 +18,8 @@ jobs:
         run: |
           [Void](New-Item -Path "lists" -ItemType Directory -ErrorAction SilentlyContinue -Confirm:$False)
           .\Get-WindowsServerBuildsList.ps1 | ConvertTo-Json -Depth 10 | Out-File -Force -Confirm:$false -FilePath lists\ms-windows-server-versions.json
+          .\Get-WindowsClientBuildsList.ps1 | ConvertTo-Json -Depth 10 | Out-File -Force -Confirm:$false -FilePath lists\ms-windows-client-versions.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: automatic update
+          
