@@ -227,6 +227,13 @@
         "Preview": false
       },
       {
+        "Build": "10240.20308",
+        "Date": "2023/11/14",
+        "KB": "KB5032199",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "10240.20232",
         "Date": "2023/10/10",
         "KB": "KB5031377",
@@ -995,6 +1002,13 @@
   {
     "Key": "Windows 10 1607",
     "Value": [
+      {
+        "Build": "14393.6452",
+        "Date": "2023/11/14",
+        "KB": "KB5032197",
+        "OutOfBand": false,
+        "Preview": false
+      },
       {
         "Build": "14393.6351",
         "Date": "2023/10/10",
@@ -2650,6 +2664,13 @@
         "Build": "15063.13",
         "Date": "2017/04/05",
         "KB": "KB4016251",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "14393.6452",
+        "Date": "2023/11/14",
+        "KB": "KB5032197",
         "OutOfBand": false,
         "Preview": false
       },
@@ -6410,6 +6431,13 @@
     "Key": "Windows 10 1809",
     "Value": [
       {
+        "Build": "17763.5122",
+        "Date": "2023/11/14",
+        "KB": "KB5032196",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "17763.4974",
         "Date": "2023/10/10",
         "KB": "KB5031361",
@@ -7539,6 +7567,13 @@
         "Build": "18362.145",
         "Date": "2019/05/29",
         "KB": "KB4497935",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "17763.5122",
+        "Date": "2023/11/14",
+        "KB": "KB5032196",
         "OutOfBand": false,
         "Preview": false
       },
@@ -11136,6 +11171,13 @@
     "Key": "Windows 10 21H2",
     "Value": [
       {
+        "Build": "19044.3693",
+        "Date": "2023/11/14",
+        "KB": "KB5032189",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "19044.3570",
         "Date": "2023/10/10",
         "KB": "KB5031356",
@@ -11555,6 +11597,13 @@
     "Key": "Windows 10 22H2",
     "Value": [
       {
+        "Build": "19044.3693",
+        "Date": "2023/11/14",
+        "KB": "KB5032189",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "19045.3636",
         "Date": "2023/10/26",
         "KB": "KB5031445",
@@ -11728,6 +11777,13 @@
   {
     "Key": "Windows 11 21H2",
     "Value": [
+      {
+        "Build": "22000.2600",
+        "Date": "2023/11/14",
+        "KB": "KB5032192",
+        "OutOfBand": false,
+        "Preview": false
+      },
       {
         "Build": "22000.2538",
         "Date": "2023/10/10",
@@ -12079,6 +12135,13 @@
         "Preview": false
       },
       {
+        "Build": "22621.2715",
+        "Date": "2023/11/14",
+        "KB": "KB5032190",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "22621.2506",
         "Date": "2023/10/31",
         "KB": "KB5031455",
@@ -12273,6 +12336,13 @@
   {
     "Key": "Windows 11 22H2",
     "Value": [
+      {
+        "Build": "22621.2715",
+        "Date": "2023/11/14",
+        "KB": "KB5032190",
+        "OutOfBand": false,
+        "Preview": false
+      },
       {
         "Build": "22621.2506",
         "Date": "2023/10/31",
