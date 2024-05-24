@@ -6571,6 +6571,13 @@
     "Key": "Windows 10 1809",
     "Value": [
       {
+        "Build": "17763.5830",
+        "Date": "2024/05/23",
+        "KB": "KB5039705",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "17763.5820",
         "Date": "2024/05/14",
         "KB": "KB5037765",
@@ -7757,6 +7764,13 @@
         "Date": "2019/05/29",
         "KB": "KB4497935",
         "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "17763.5830",
+        "Date": "2024/05/23",
+        "KB": "KB5039705",
+        "OutOfBand": true,
         "Preview": false
       },
       {
