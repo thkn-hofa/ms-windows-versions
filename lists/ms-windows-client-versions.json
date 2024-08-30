@@ -12017,6 +12017,13 @@
     "Key": "Windows 10 22H2",
     "Value": [
       {
+        "Build": "19045.4842",
+        "Date": "2024/08/29",
+        "KB": "KB5041582",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
         "Build": "19044.4780",
         "Date": "2024/08/13",
         "KB": "KB5041580",
