@@ -13332,7 +13332,7 @@
         "Preview": false
       },
       {
-        "Build": "22621.5191",
+        "Build": "22621.5189",
         "Date": "2025/04/08",
         "KB": "KB5055528",
         "OutOfBand": false,
@@ -13568,6 +13568,13 @@
         "KB": "KB5031455",
         "OutOfBand": false,
         "Preview": true
+      },
+      {
+        "Build": "22621.5191",
+        "Date": "2025/04/08",
+        "KB": "KB5055528",
+        "OutOfBand": false,
+        "Preview": false
       },
       {
         "Build": "22621.2428",
@@ -14184,7 +14191,7 @@
     "Key": "Windows 11 23H2",
     "Value": [
       {
-        "Build": "22621.5191",
+        "Build": "22621.5189",
         "Date": "2025/04/08",
         "KB": "KB5055528",
         "OutOfBand": false,
