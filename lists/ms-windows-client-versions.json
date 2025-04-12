@@ -1122,6 +1122,13 @@
     "Key": "Windows 10 1607",
     "Value": [
       {
+        "Build": "14393.7973",
+        "Date": "2025/04/11",
+        "KB": "KB5058921",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "14393.7969",
         "Date": "2025/04/08",
         "KB": "KB5055521",
@@ -2910,6 +2917,13 @@
         "Date": "2017/04/05",
         "KB": "KB4016251",
         "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "14393.7973",
+        "Date": "2025/04/11",
+        "KB": "KB5058921",
+        "OutOfBand": true,
         "Preview": false
       },
       {
@@ -6802,6 +6816,13 @@
     "Key": "Windows 10 1809",
     "Value": [
       {
+        "Build": "17763.7240",
+        "Date": "2025/04/11",
+        "KB": "KB5058922",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "17763.7136",
         "Date": "2025/04/08",
         "KB": "KB5055519",
@@ -8072,6 +8093,13 @@
         "Date": "2019/05/29",
         "KB": "KB4497935",
         "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "17763.7240",
+        "Date": "2025/04/11",
+        "KB": "KB5058922",
+        "OutOfBand": true,
         "Preview": false
       },
       {
@@ -13332,6 +13360,13 @@
         "Preview": false
       },
       {
+        "Build": "22621.5192",
+        "Date": "2025/04/11",
+        "KB": "KB5058919",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "22621.5189",
         "Date": "2025/04/08",
         "KB": "KB5055528",
@@ -13765,6 +13800,13 @@
     "Key": "Windows 11 22H2",
     "Value": [
       {
+        "Build": "22621.5192",
+        "Date": "2025/04/11",
+        "KB": "KB5058919",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "22621.5191",
         "Date": "2025/04/08",
         "KB": "KB5055528",
@@ -14190,6 +14232,13 @@
   {
     "Key": "Windows 11 23H2",
     "Value": [
+      {
+        "Build": "22621.5192",
+        "Date": "2025/04/11",
+        "KB": "KB5058919",
+        "OutOfBand": true,
+        "Preview": false
+      },
       {
         "Build": "22621.5189",
         "Date": "2025/04/08",
