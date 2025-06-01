@@ -13486,6 +13486,13 @@
         "Preview": false
       },
       {
+        "Build": "22621.5415",
+        "Date": "2025/05/31",
+        "KB": "KB5062170",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "22621.5335",
         "Date": "2025/05/13",
         "KB": "KB5058405",
@@ -13933,6 +13940,13 @@
     "Key": "Windows 11 22H2",
     "Value": [
       {
+        "Build": "22621.5415",
+        "Date": "2025/05/31",
+        "KB": "KB5062170",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "22621.5335",
         "Date": "2025/05/13",
         "KB": "KB5058405",
@@ -14372,6 +14386,13 @@
   {
     "Key": "Windows 11 23H2",
     "Value": [
+      {
+        "Build": "22621.5415",
+        "Date": "2025/05/31",
+        "KB": "KB5062170",
+        "OutOfBand": true,
+        "Preview": false
+      },
       {
         "Build": "22621.5335",
         "Date": "2025/05/13",
