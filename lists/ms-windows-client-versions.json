@@ -6872,7 +6872,7 @@
         "Preview": false
       },
       {
-        "Build": "17763.7312",
+        "Build": "17763.7314",
         "Date": "2025/05/13",
         "KB": "KB5058392",
         "OutOfBand": false,
@@ -8180,7 +8180,7 @@
         "Preview": false
       },
       {
-        "Build": "17763.7312",
+        "Build": "17763.7314",
         "Date": "2025/05/13",
         "KB": "KB5058392",
         "OutOfBand": false,
@@ -12506,6 +12506,13 @@
   {
     "Key": "Windows 10 22H2",
     "Value": [
+      {
+        "Build": "19045.6036",
+        "Date": "2025/06/24",
+        "KB": "KB5061087",
+        "OutOfBand": false,
+        "Preview": true
+      },
       {
         "Build": "19045.5968",
         "Date": "2025/06/16",
