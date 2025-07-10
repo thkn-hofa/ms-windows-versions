@@ -11969,6 +11969,13 @@
     "Key": "Windows 10 21H2",
     "Value": [
       {
+        "Build": "19044.6093",
+        "Date": "2025/07/08",
+        "KB": "KB5062554",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "19044.5965",
         "Date": "2025/06/10",
         "KB": "KB5060533",
