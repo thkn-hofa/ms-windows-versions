@@ -13640,6 +13640,13 @@
         "Preview": false
       },
       {
+        "Build": "26200.6901",
+        "Date": "2025/10/20",
+        "KB": "KB5070773",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "26200.6899",
         "Date": "2025/10/14",
         "KB": "KB5066835",
@@ -15289,6 +15296,13 @@
     "Key": "Windows 11 24H2",
     "Value": [
       {
+        "Build": "26200.6901",
+        "Date": "2025/10/20",
+        "KB": "KB5070773",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "26200.6899",
         "Date": "2025/10/14",
         "KB": "KB5066835",
@@ -15542,5 +15556,32 @@
       }
     ],
     "Name": "Windows 11 24H2"
+  },
+  {
+    "Key": "Windows 11 25H2",
+    "Value": [
+      {
+        "Build": "26200.6901",
+        "Date": "2025/10/20",
+        "KB": "KB5070773",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26200.6899",
+        "Date": "2025/10/14",
+        "KB": "KB5066835",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.6725",
+        "Date": "2025/09/29",
+        "KB": "KB5065789",
+        "OutOfBand": false,
+        "Preview": true
+      }
+    ],
+    "Name": "Windows 11 25H2"
   }
 ]
