@@ -6998,6 +6998,13 @@
     "Key": "Windows 10 1809",
     "Value": [
       {
+        "Build": "17763.8281",
+        "Date": "2026/01/24",
+        "KB": "KB5078131",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "17763.8280",
         "Date": "2026/01/17",
         "KB": "KB5077795",
@@ -8373,6 +8380,13 @@
         "Date": "2019/05/29",
         "KB": "KB4497935",
         "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "17763.8281",
+        "Date": "2026/01/24",
+        "KB": "KB5078131",
+        "OutOfBand": true,
         "Preview": false
       },
       {
@@ -12815,6 +12829,13 @@
     "Key": "Windows 10 22H2",
     "Value": [
       {
+        "Build": "19045.6812",
+        "Date": "2026/01/24",
+        "KB": "KB5078129",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "19045.6811",
         "Date": "2026/01/17",
         "KB": "KB5077796",
@@ -13808,6 +13829,13 @@
         "Preview": false
       },
       {
+        "Build": "26200.7628",
+        "Date": "2026/01/24",
+        "KB": "KB5078127",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "26200.7627",
         "Date": "2026/01/17",
         "KB": "KB5077744",
@@ -14106,6 +14134,13 @@
         "Date": "2024/06/15",
         "KB": "KB5039239",
         "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6495",
+        "Date": "2026/01/24",
+        "KB": "KB5078132",
+        "OutOfBand": true,
         "Preview": false
       },
       {
@@ -15206,6 +15241,13 @@
     "Key": "Windows 11 23H2",
     "Value": [
       {
+        "Build": "22631.6495",
+        "Date": "2026/01/24",
+        "KB": "KB5078132",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "22631.6494",
         "Date": "2026/01/17",
         "KB": "KB5077797",
@@ -15597,6 +15639,13 @@
     "Key": "Windows 11 24H2",
     "Value": [
       {
+        "Build": "26200.7628",
+        "Date": "2026/01/24",
+        "KB": "KB5078127",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "26200.7627",
         "Date": "2026/01/17",
         "KB": "KB5077744",
@@ -15903,6 +15952,13 @@
   {
     "Key": "Windows 11 25H2",
     "Value": [
+      {
+        "Build": "26200.7628",
+        "Date": "2026/01/24",
+        "KB": "KB5078127",
+        "OutOfBand": true,
+        "Preview": false
+      },
       {
         "Build": "26200.7627",
         "Date": "2026/01/17",
