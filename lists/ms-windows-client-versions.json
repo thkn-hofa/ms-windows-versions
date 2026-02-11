@@ -1164,6 +1164,13 @@
     "Key": "Windows 10 1607",
     "Value": [
       {
+        "Build": "14393.8868",
+        "Date": "2026/02/10",
+        "KB": "KB5075999",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "14393.8783",
         "Date": "2026/01/13",
         "KB": "KB5073722",
@@ -3028,6 +3035,13 @@
         "Build": "15063.13",
         "Date": "2017/04/05",
         "KB": "KB4016251",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "14393.8868",
+        "Date": "2026/02/10",
+        "KB": "KB5075999",
         "OutOfBand": false,
         "Preview": false
       },
@@ -6998,6 +7012,13 @@
     "Key": "Windows 10 1809",
     "Value": [
       {
+        "Build": "17763.8389",
+        "Date": "2026/02/10",
+        "KB": "KB5075904",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "17763.8281",
         "Date": "2026/01/24",
         "KB": "KB5078131",
@@ -8379,6 +8400,13 @@
         "Build": "18362.145",
         "Date": "2019/05/29",
         "KB": "KB4497935",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "17763.8389",
+        "Date": "2026/02/10",
+        "KB": "KB5075904",
         "OutOfBand": false,
         "Preview": false
       },
@@ -12829,6 +12857,13 @@
     "Key": "Windows 10 22H2",
     "Value": [
       {
+        "Build": "19045.6937",
+        "Date": "2026/02/10",
+        "KB": "KB5075912",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "19045.6812",
         "Date": "2026/01/24",
         "KB": "KB5078129",
@@ -13392,8 +13427,932 @@
     "Name": "Windows 10 22H2"
   },
   {
-    "Key": "Windows 11 21H2",
+    "Key": "Windows 11 26H1",
     "Value": [
+      {
+        "Build": "28000.1575",
+        "Date": "2026/02/10",
+        "KB": "KB5077179",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26200.7840",
+        "Date": "2026/02/10",
+        "KB": "KB5077181",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26200.7705",
+        "Date": "2026/01/29",
+        "KB": "KB5074105",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26200.7628",
+        "Date": "2026/01/24",
+        "KB": "KB5078127",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26200.7627",
+        "Date": "2026/01/17",
+        "KB": "KB5077744",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26200.7623",
+        "Date": "2026/01/13",
+        "KB": "KB5074109",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26200.7462",
+        "Date": "2025/12/09",
+        "KB": "KB5072033",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26200.7309",
+        "Date": "2025/12/01",
+        "KB": "KB5070311",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26200.7171",
+        "Date": "2025/11/11",
+        "KB": "KB5068861",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26200.7019",
+        "Date": "2025/10/28",
+        "KB": "KB5067036",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26200.6901",
+        "Date": "2025/10/20",
+        "KB": "KB5070773",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26200.6899",
+        "Date": "2025/10/14",
+        "KB": "KB5066835",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.6725",
+        "Date": "2025/09/29",
+        "KB": "KB5065789",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.6588",
+        "Date": "2025/09/22",
+        "KB": "KB5068221",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26100.6584",
+        "Date": "2025/09/09",
+        "KB": "KB5065426",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.5074",
+        "Date": "2025/08/29",
+        "KB": "KB5064081",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.4946",
+        "Date": "2025/08/12",
+        "KB": "KB5063878",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.4770",
+        "Date": "2025/07/22",
+        "KB": "KB5062660",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.4656",
+        "Date": "2025/07/13",
+        "KB": "KB5064489",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26100.4652",
+        "Date": "2025/07/08",
+        "KB": "KB5062553",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.4484",
+        "Date": "2025/06/26",
+        "KB": "KB5060829",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.4351",
+        "Date": "2025/06/11",
+        "KB": "KB5063060",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26100.4349",
+        "Date": "2025/06/10",
+        "KB": "KB5060842",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.4202",
+        "Date": "2025/05/28",
+        "KB": "KB5058499",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.4066",
+        "Date": "2025/05/27",
+        "KB": "KB5061977",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "26100.4061",
+        "Date": "2025/05/13",
+        "KB": "KB5058411",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.3915",
+        "Date": "2025/04/25",
+        "KB": "KB5055627",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.3775",
+        "Date": "2025/04/08",
+        "KB": "KB5055523",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.3624",
+        "Date": "2025/03/27",
+        "KB": "KB5053656",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.3476",
+        "Date": "2025/03/11",
+        "KB": "KB5053598",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.3323",
+        "Date": "2025/02/25",
+        "KB": "KB5052093",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.3194",
+        "Date": "2025/02/11",
+        "KB": "KB5051987",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.3037",
+        "Date": "2025/01/28",
+        "KB": "KB5050094",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.2894",
+        "Date": "2025/01/14",
+        "KB": "KB5050009",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.2605",
+        "Date": "2024/12/10",
+        "KB": "KB5048667",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.2454",
+        "Date": "2024/11/21",
+        "KB": "KB5046740",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.2314",
+        "Date": "2024/11/12",
+        "KB": "KB5046617",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.2161",
+        "Date": "2024/10/24",
+        "KB": "KB5044384",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.2033",
+        "Date": "2024/10/08",
+        "KB": "KB5044284",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.1882",
+        "Date": "2024/09/30",
+        "KB": "KB5043178",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.1742",
+        "Date": "2024/09/10",
+        "KB": "KB5043080",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.1591",
+        "Date": "2024/08/27",
+        "KB": "KB5041865",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.1457",
+        "Date": "2024/08/13",
+        "KB": "KB5041571",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.1301",
+        "Date": "2024/07/30",
+        "KB": "KB5040529",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.1150",
+        "Date": "2024/07/09",
+        "KB": "KB5040435",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "26100.1000",
+        "Date": "2024/06/28",
+        "KB": "KB5039304",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "26100.863",
+        "Date": "2024/06/15",
+        "KB": "KB5039239",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6649",
+        "Date": "2026/02/10",
+        "KB": "KB5075941",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6495",
+        "Date": "2026/01/24",
+        "KB": "KB5078132",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6494",
+        "Date": "2026/01/17",
+        "KB": "KB5077797",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6491",
+        "Date": "2026/01/13",
+        "KB": "KB5073455",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6345",
+        "Date": "2025/12/09",
+        "KB": "KB5071417",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6276",
+        "Date": "2025/11/20",
+        "KB": "KB5070312",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22631.6199",
+        "Date": "2025/11/11",
+        "KB": "KB5068865",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.6133",
+        "Date": "2025/10/28",
+        "KB": "KB5067112",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.6060",
+        "Date": "2025/10/14",
+        "KB": "KB5066793",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.5984",
+        "Date": "2025/09/23",
+        "KB": "KB5065790",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5909",
+        "Date": "2025/09/09",
+        "KB": "KB5065431",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.5840",
+        "Date": "2025/08/26",
+        "KB": "KB5064080",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5771",
+        "Date": "2025/08/19",
+        "KB": "KB5066189",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "22621.5768",
+        "Date": "2025/08/12",
+        "KB": "KB5063875",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22631.5699",
+        "Date": "2025/07/22",
+        "KB": "KB5062663",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5624",
+        "Date": "2025/07/08",
+        "KB": "KB5062552",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.5549",
+        "Date": "2025/06/26",
+        "KB": "KB5060826",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5472",
+        "Date": "2025/06/10",
+        "KB": "KB5060999",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.5415",
+        "Date": "2025/05/31",
+        "KB": "KB5062170",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "22621.5413",
+        "Date": "2025/05/27",
+        "KB": "KB5058502",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5335",
+        "Date": "2025/05/13",
+        "KB": "KB5058405",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.5262",
+        "Date": "2025/04/22",
+        "KB": "KB5055629",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5192",
+        "Date": "2025/04/11",
+        "KB": "KB5058919",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "22621.5189",
+        "Date": "2025/04/08",
+        "KB": "KB5055528",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.5126",
+        "Date": "2025/03/25",
+        "KB": "KB5053657",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5039",
+        "Date": "2025/03/11",
+        "KB": "KB5053602",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.4974",
+        "Date": "2025/02/25",
+        "KB": "KB5052094",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.4890",
+        "Date": "2025/02/11",
+        "KB": "KB5051989",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.4830",
+        "Date": "2025/01/29",
+        "KB": "KB5050092",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.4751",
+        "Date": "2025/01/14",
+        "KB": "KB5050021",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.4602",
+        "Date": "2024/12/10",
+        "KB": "KB5048685",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.4541",
+        "Date": "2024/11/21",
+        "KB": "KB5046732",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.4460",
+        "Date": "2024/11/12",
+        "KB": "KB5046633",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.4391",
+        "Date": "2024/10/22",
+        "KB": "KB5044380",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.4317",
+        "Date": "2024/10/08",
+        "KB": "KB5044285",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.4249",
+        "Date": "2024/09/26",
+        "KB": "KB5043145",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.4169",
+        "Date": "2024/09/10",
+        "KB": "KB5043076",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.4112",
+        "Date": "2024/08/27",
+        "KB": "KB5041587",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.4037",
+        "Date": "2024/08/13",
+        "KB": "KB5041585",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.3958",
+        "Date": "2024/07/25",
+        "KB": "KB5040527",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.3880",
+        "Date": "2024/07/09",
+        "KB": "KB5040442",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.3810",
+        "Date": "2024/06/25",
+        "KB": "KB5039302",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.3737",
+        "Date": "2024/06/11",
+        "KB": "KB5039212",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.3672",
+        "Date": "2024/05/29",
+        "KB": "KB5037853",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.3593",
+        "Date": "2024/05/14",
+        "KB": "KB5037771",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.3527",
+        "Date": "2024/04/23",
+        "KB": "KB5036980",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.3447",
+        "Date": "2024/04/09",
+        "KB": "KB5036893",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.3374",
+        "Date": "2024/03/26",
+        "KB": "KB5035942",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.3296",
+        "Date": "2024/03/12",
+        "KB": "KB5035853",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.3235",
+        "Date": "2024/02/29",
+        "KB": "KB5034848",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.3155",
+        "Date": "2024/02/13",
+        "KB": "KB5034765",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.3085",
+        "Date": "2024/01/23",
+        "KB": "KB5034204",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.3007",
+        "Date": "2024/01/09",
+        "KB": "KB5034123",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.2861",
+        "Date": "2023/12/12",
+        "KB": "KB5033375",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.2792",
+        "Date": "2023/12/04",
+        "KB": "KB5032288",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.2715",
+        "Date": "2023/11/14",
+        "KB": "KB5032190",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.2506",
+        "Date": "2023/10/31",
+        "KB": "KB5031455",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5699",
+        "Date": "2025/07/22",
+        "KB": "KB5062663",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.5191",
+        "Date": "2025/04/08",
+        "KB": "KB5055528",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.2428",
+        "Date": "2023/10/10",
+        "KB": "KB5031354",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.2361",
+        "Date": "2023/09/26",
+        "KB": "KB5030310",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.2283",
+        "Date": "2023/09/12",
+        "KB": "KB5030219",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.2215",
+        "Date": "2023/08/22",
+        "KB": "KB5029351",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.2134",
+        "Date": "2023/08/08",
+        "KB": "KB5029263",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.2070",
+        "Date": "2023/07/26",
+        "KB": "KB5028254",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.1992",
+        "Date": "2023/07/11",
+        "KB": "KB5028185",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.1928",
+        "Date": "2023/06/27",
+        "KB": "KB5027303",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.1848",
+        "Date": "2023/06/13",
+        "KB": "KB5027231",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.1778",
+        "Date": "2023/05/24",
+        "KB": "KB5026446",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.1702",
+        "Date": "2023/05/09",
+        "KB": "KB5026372",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.1635",
+        "Date": "2023/04/25",
+        "KB": "KB5025305",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.1555",
+        "Date": "2023/04/11",
+        "KB": "KB5025239",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.1485",
+        "Date": "2023/03/28",
+        "KB": "KB5023778",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.1413",
+        "Date": "2023/03/14",
+        "KB": "KB5023706",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.1344",
+        "Date": "2023/02/28",
+        "KB": "KB5022913",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.1265",
+        "Date": "2023/02/14",
+        "KB": "KB5022845",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.1194",
+        "Date": "2023/01/26",
+        "KB": "KB5022360",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.1105",
+        "Date": "2023/01/10",
+        "KB": "KB5022303",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.963",
+        "Date": "2022/12/13",
+        "KB": "KB5021255",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.900",
+        "Date": "2022/11/29",
+        "KB": "KB5020044",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.819",
+        "Date": "2022/11/08",
+        "KB": "KB5019980",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.755",
+        "Date": "2022/10/25",
+        "KB": "KB5018496",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
+        "Build": "22621.675",
+        "Date": "2022/10/18",
+        "KB": "KB5019509",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
+        "Build": "22621.674",
+        "Date": "2022/10/11",
+        "KB": "KB5018427",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "22621.608",
+        "Date": "2022/09/30",
+        "KB": "KB5017389",
+        "OutOfBand": false,
+        "Preview": true
+      },
       {
         "Build": "22000.3260",
         "Date": "2024/10/08",
@@ -13827,2223 +14786,8 @@
         "KB": "KB5006674",
         "OutOfBand": false,
         "Preview": false
-      },
-      {
-        "Build": "26200.7705",
-        "Date": "2026/01/29",
-        "KB": "KB5074105",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.7628",
-        "Date": "2026/01/24",
-        "KB": "KB5078127",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7627",
-        "Date": "2026/01/17",
-        "KB": "KB5077744",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7623",
-        "Date": "2026/01/13",
-        "KB": "KB5074109",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7462",
-        "Date": "2025/12/09",
-        "KB": "KB5072033",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7309",
-        "Date": "2025/12/01",
-        "KB": "KB5070311",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.7171",
-        "Date": "2025/11/11",
-        "KB": "KB5068861",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7019",
-        "Date": "2025/10/28",
-        "KB": "KB5067036",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.6901",
-        "Date": "2025/10/20",
-        "KB": "KB5070773",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.6899",
-        "Date": "2025/10/14",
-        "KB": "KB5066835",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.6725",
-        "Date": "2025/09/29",
-        "KB": "KB5065789",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.6588",
-        "Date": "2025/09/22",
-        "KB": "KB5068221",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.6584",
-        "Date": "2025/09/09",
-        "KB": "KB5065426",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.5074",
-        "Date": "2025/08/29",
-        "KB": "KB5064081",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4946",
-        "Date": "2025/08/12",
-        "KB": "KB5063878",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4770",
-        "Date": "2025/07/22",
-        "KB": "KB5062660",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4656",
-        "Date": "2025/07/13",
-        "KB": "KB5064489",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4652",
-        "Date": "2025/07/08",
-        "KB": "KB5062553",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4484",
-        "Date": "2025/06/26",
-        "KB": "KB5060829",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4351",
-        "Date": "2025/06/11",
-        "KB": "KB5063060",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4349",
-        "Date": "2025/06/10",
-        "KB": "KB5060842",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4202",
-        "Date": "2025/05/28",
-        "KB": "KB5058499",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4066",
-        "Date": "2025/05/27",
-        "KB": "KB5061977",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4061",
-        "Date": "2025/05/13",
-        "KB": "KB5058411",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3915",
-        "Date": "2025/04/25",
-        "KB": "KB5055627",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.3775",
-        "Date": "2025/04/08",
-        "KB": "KB5055523",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3624",
-        "Date": "2025/03/27",
-        "KB": "KB5053656",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.3476",
-        "Date": "2025/03/11",
-        "KB": "KB5053598",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3323",
-        "Date": "2025/02/25",
-        "KB": "KB5052093",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.3194",
-        "Date": "2025/02/11",
-        "KB": "KB5051987",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3037",
-        "Date": "2025/01/28",
-        "KB": "KB5050094",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.2894",
-        "Date": "2025/01/14",
-        "KB": "KB5050009",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.2605",
-        "Date": "2024/12/10",
-        "KB": "KB5048667",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.2454",
-        "Date": "2024/11/21",
-        "KB": "KB5046740",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.2314",
-        "Date": "2024/11/12",
-        "KB": "KB5046617",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.2161",
-        "Date": "2024/10/24",
-        "KB": "KB5044384",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.2033",
-        "Date": "2024/10/08",
-        "KB": "KB5044284",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1882",
-        "Date": "2024/09/30",
-        "KB": "KB5043178",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.1742",
-        "Date": "2024/09/10",
-        "KB": "KB5043080",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1591",
-        "Date": "2024/08/27",
-        "KB": "KB5041865",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.1457",
-        "Date": "2024/08/13",
-        "KB": "KB5041571",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1301",
-        "Date": "2024/07/30",
-        "KB": "KB5040529",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.1150",
-        "Date": "2024/07/09",
-        "KB": "KB5040435",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1000",
-        "Date": "2024/06/28",
-        "KB": "KB5039304",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.863",
-        "Date": "2024/06/15",
-        "KB": "KB5039239",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6495",
-        "Date": "2026/01/24",
-        "KB": "KB5078132",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6494",
-        "Date": "2026/01/17",
-        "KB": "KB5077797",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6491",
-        "Date": "2026/01/13",
-        "KB": "KB5073455",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6345",
-        "Date": "2025/12/09",
-        "KB": "KB5071417",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6276",
-        "Date": "2025/11/20",
-        "KB": "KB5070312",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22631.6199",
-        "Date": "2025/11/11",
-        "KB": "KB5068865",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6133",
-        "Date": "2025/10/28",
-        "KB": "KB5067112",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.6060",
-        "Date": "2025/10/14",
-        "KB": "KB5066793",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.5984",
-        "Date": "2025/09/23",
-        "KB": "KB5065790",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5909",
-        "Date": "2025/09/09",
-        "KB": "KB5065431",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.5840",
-        "Date": "2025/08/26",
-        "KB": "KB5064080",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5771",
-        "Date": "2025/08/19",
-        "KB": "KB5066189",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5768",
-        "Date": "2025/08/12",
-        "KB": "KB5063875",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.5699",
-        "Date": "2025/07/22",
-        "KB": "KB5062663",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5624",
-        "Date": "2025/07/08",
-        "KB": "KB5062552",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5549",
-        "Date": "2025/06/26",
-        "KB": "KB5060826",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5472",
-        "Date": "2025/06/10",
-        "KB": "KB5060999",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5415",
-        "Date": "2025/05/31",
-        "KB": "KB5062170",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5413",
-        "Date": "2025/05/27",
-        "KB": "KB5058502",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5335",
-        "Date": "2025/05/13",
-        "KB": "KB5058405",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5262",
-        "Date": "2025/04/22",
-        "KB": "KB5055629",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5192",
-        "Date": "2025/04/11",
-        "KB": "KB5058919",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5189",
-        "Date": "2025/04/08",
-        "KB": "KB5055528",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5126",
-        "Date": "2025/03/25",
-        "KB": "KB5053657",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5039",
-        "Date": "2025/03/11",
-        "KB": "KB5053602",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4974",
-        "Date": "2025/02/25",
-        "KB": "KB5052094",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4890",
-        "Date": "2025/02/11",
-        "KB": "KB5051989",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4830",
-        "Date": "2025/01/29",
-        "KB": "KB5050092",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4751",
-        "Date": "2025/01/14",
-        "KB": "KB5050021",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4602",
-        "Date": "2024/12/10",
-        "KB": "KB5048685",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4541",
-        "Date": "2024/11/21",
-        "KB": "KB5046732",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4460",
-        "Date": "2024/11/12",
-        "KB": "KB5046633",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4391",
-        "Date": "2024/10/22",
-        "KB": "KB5044380",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4317",
-        "Date": "2024/10/08",
-        "KB": "KB5044285",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4249",
-        "Date": "2024/09/26",
-        "KB": "KB5043145",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4169",
-        "Date": "2024/09/10",
-        "KB": "KB5043076",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4112",
-        "Date": "2024/08/27",
-        "KB": "KB5041587",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4037",
-        "Date": "2024/08/13",
-        "KB": "KB5041585",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3958",
-        "Date": "2024/07/25",
-        "KB": "KB5040527",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3880",
-        "Date": "2024/07/09",
-        "KB": "KB5040442",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3810",
-        "Date": "2024/06/25",
-        "KB": "KB5039302",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3737",
-        "Date": "2024/06/11",
-        "KB": "KB5039212",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3672",
-        "Date": "2024/05/29",
-        "KB": "KB5037853",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3593",
-        "Date": "2024/05/14",
-        "KB": "KB5037771",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3527",
-        "Date": "2024/04/23",
-        "KB": "KB5036980",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3447",
-        "Date": "2024/04/09",
-        "KB": "KB5036893",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3374",
-        "Date": "2024/03/26",
-        "KB": "KB5035942",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3296",
-        "Date": "2024/03/12",
-        "KB": "KB5035853",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3235",
-        "Date": "2024/02/29",
-        "KB": "KB5034848",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3155",
-        "Date": "2024/02/13",
-        "KB": "KB5034765",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3085",
-        "Date": "2024/01/23",
-        "KB": "KB5034204",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3007",
-        "Date": "2024/01/09",
-        "KB": "KB5034123",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2861",
-        "Date": "2023/12/12",
-        "KB": "KB5033375",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2792",
-        "Date": "2023/12/04",
-        "KB": "KB5032288",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2715",
-        "Date": "2023/11/14",
-        "KB": "KB5032190",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2506",
-        "Date": "2023/10/31",
-        "KB": "KB5031455",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5699",
-        "Date": "2025/07/22",
-        "KB": "KB5062663",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5191",
-        "Date": "2025/04/08",
-        "KB": "KB5055528",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2428",
-        "Date": "2023/10/10",
-        "KB": "KB5031354",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2361",
-        "Date": "2023/09/26",
-        "KB": "KB5030310",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2283",
-        "Date": "2023/09/12",
-        "KB": "KB5030219",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2215",
-        "Date": "2023/08/22",
-        "KB": "KB5029351",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2134",
-        "Date": "2023/08/08",
-        "KB": "KB5029263",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2070",
-        "Date": "2023/07/26",
-        "KB": "KB5028254",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1992",
-        "Date": "2023/07/11",
-        "KB": "KB5028185",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1928",
-        "Date": "2023/06/27",
-        "KB": "KB5027303",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1848",
-        "Date": "2023/06/13",
-        "KB": "KB5027231",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1778",
-        "Date": "2023/05/24",
-        "KB": "KB5026446",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1702",
-        "Date": "2023/05/09",
-        "KB": "KB5026372",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1635",
-        "Date": "2023/04/25",
-        "KB": "KB5025305",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1555",
-        "Date": "2023/04/11",
-        "KB": "KB5025239",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1485",
-        "Date": "2023/03/28",
-        "KB": "KB5023778",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1413",
-        "Date": "2023/03/14",
-        "KB": "KB5023706",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1344",
-        "Date": "2023/02/28",
-        "KB": "KB5022913",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1265",
-        "Date": "2023/02/14",
-        "KB": "KB5022845",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1194",
-        "Date": "2023/01/26",
-        "KB": "KB5022360",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1105",
-        "Date": "2023/01/10",
-        "KB": "KB5022303",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.963",
-        "Date": "2022/12/13",
-        "KB": "KB5021255",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.900",
-        "Date": "2022/11/29",
-        "KB": "KB5020044",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.819",
-        "Date": "2022/11/08",
-        "KB": "KB5019980",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.755",
-        "Date": "2022/10/25",
-        "KB": "KB5018496",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.675",
-        "Date": "2022/10/18",
-        "KB": "KB5019509",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.674",
-        "Date": "2022/10/11",
-        "KB": "KB5018427",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.608",
-        "Date": "2022/09/30",
-        "KB": "KB5017389",
-        "OutOfBand": false,
-        "Preview": true
       }
     ],
-    "Name": "Windows 11 21H2"
-  },
-  {
-    "Key": "Windows 11 22H2",
-    "Value": [
-      {
-        "Build": "22621.6060",
-        "Date": "2025/10/14",
-        "KB": "KB5066793",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5909",
-        "Date": "2025/09/09",
-        "KB": "KB5065431",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5771",
-        "Date": "2025/08/19",
-        "KB": "KB5066189",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5768",
-        "Date": "2025/08/12",
-        "KB": "KB5063875",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5699",
-        "Date": "2025/07/22",
-        "KB": "KB5062663",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5624",
-        "Date": "2025/07/08",
-        "KB": "KB5062552",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5549",
-        "Date": "2025/06/26",
-        "KB": "KB5060826",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5415",
-        "Date": "2025/05/31",
-        "KB": "KB5062170",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5413",
-        "Date": "2025/05/27",
-        "KB": "KB5058502",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5335",
-        "Date": "2025/05/13",
-        "KB": "KB5058405",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5262",
-        "Date": "2025/04/22",
-        "KB": "KB5055629",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5192",
-        "Date": "2025/04/11",
-        "KB": "KB5058919",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5191",
-        "Date": "2025/04/08",
-        "KB": "KB5055528",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5126",
-        "Date": "2025/03/25",
-        "KB": "KB5053657",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5039",
-        "Date": "2025/03/11",
-        "KB": "KB5053602",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4974",
-        "Date": "2025/02/25",
-        "KB": "KB5052094",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4890",
-        "Date": "2025/02/11",
-        "KB": "KB5051989",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4830",
-        "Date": "2025/01/29",
-        "KB": "KB5050092",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4751",
-        "Date": "2025/01/14",
-        "KB": "KB5050021",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4602",
-        "Date": "2024/12/10",
-        "KB": "KB5048685",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4541",
-        "Date": "2024/11/21",
-        "KB": "KB5046732",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4460",
-        "Date": "2024/11/12",
-        "KB": "KB5046633",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4391",
-        "Date": "2024/10/22",
-        "KB": "KB5044380",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4317",
-        "Date": "2024/10/08",
-        "KB": "KB5044285",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4249",
-        "Date": "2024/09/26",
-        "KB": "KB5043145",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4169",
-        "Date": "2024/09/10",
-        "KB": "KB5043076",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4112",
-        "Date": "2024/08/27",
-        "KB": "KB5041587",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4037",
-        "Date": "2024/08/13",
-        "KB": "KB5041585",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3958",
-        "Date": "2024/07/25",
-        "KB": "KB5040527",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3880",
-        "Date": "2024/07/09",
-        "KB": "KB5040442",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3810",
-        "Date": "2024/06/25",
-        "KB": "KB5039302",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3737",
-        "Date": "2024/06/11",
-        "KB": "KB5039212",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3672",
-        "Date": "2024/05/29",
-        "KB": "KB5037853",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3593",
-        "Date": "2024/05/14",
-        "KB": "KB5037771",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3527",
-        "Date": "2024/04/23",
-        "KB": "KB5036980",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3447",
-        "Date": "2024/04/09",
-        "KB": "KB5036893",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3374",
-        "Date": "2024/03/26",
-        "KB": "KB5035942",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3296",
-        "Date": "2024/03/12",
-        "KB": "KB5035853",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3235",
-        "Date": "2024/02/29",
-        "KB": "KB5034848",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3155",
-        "Date": "2024/02/13",
-        "KB": "KB5034765",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3085",
-        "Date": "2024/01/23",
-        "KB": "KB5034204",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3007",
-        "Date": "2024/01/09",
-        "KB": "KB5034123",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2861",
-        "Date": "2023/12/12",
-        "KB": "KB5033375",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2792",
-        "Date": "2023/12/04",
-        "KB": "KB5032288",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2715",
-        "Date": "2023/11/14",
-        "KB": "KB5032190",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2506",
-        "Date": "2023/10/31",
-        "KB": "KB5031455",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2428",
-        "Date": "2023/10/10",
-        "KB": "KB5031354",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2361",
-        "Date": "2023/09/26",
-        "KB": "KB5030310",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2283",
-        "Date": "2023/09/12",
-        "KB": "KB5030219",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2215",
-        "Date": "2023/08/22",
-        "KB": "KB5029351",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2134",
-        "Date": "2023/08/08",
-        "KB": "KB5029263",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2070",
-        "Date": "2023/07/26",
-        "KB": "KB5028254",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1992",
-        "Date": "2023/07/11",
-        "KB": "KB5028185",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1928",
-        "Date": "2023/06/27",
-        "KB": "KB5027303",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1848",
-        "Date": "2023/06/13",
-        "KB": "KB5027231",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1778",
-        "Date": "2023/05/24",
-        "KB": "KB5026446",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1702",
-        "Date": "2023/05/09",
-        "KB": "KB5026372",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1635",
-        "Date": "2023/04/25",
-        "KB": "KB5025305",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1555",
-        "Date": "2023/04/11",
-        "KB": "KB5025239",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1485",
-        "Date": "2023/03/28",
-        "KB": "KB5023778",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1413",
-        "Date": "2023/03/14",
-        "KB": "KB5023706",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1344",
-        "Date": "2023/02/28",
-        "KB": "KB5022913",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1265",
-        "Date": "2023/02/14",
-        "KB": "KB5022845",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.1194",
-        "Date": "2023/01/26",
-        "KB": "KB5022360",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.1105",
-        "Date": "2023/01/10",
-        "KB": "KB5022303",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.963",
-        "Date": "2022/12/13",
-        "KB": "KB5021255",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.900",
-        "Date": "2022/11/29",
-        "KB": "KB5020044",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.819",
-        "Date": "2022/11/08",
-        "KB": "KB5019980",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.755",
-        "Date": "2022/10/25",
-        "KB": "KB5018496",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.675",
-        "Date": "2022/10/18",
-        "KB": "KB5019509",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.674",
-        "Date": "2022/10/11",
-        "KB": "KB5018427",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.608",
-        "Date": "2022/09/30",
-        "KB": "KB5017389",
-        "OutOfBand": false,
-        "Preview": true
-      }
-    ],
-    "Name": "Windows 11 22H2"
-  },
-  {
-    "Key": "Windows 11 23H2",
-    "Value": [
-      {
-        "Build": "22631.6495",
-        "Date": "2026/01/24",
-        "KB": "KB5078132",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6494",
-        "Date": "2026/01/17",
-        "KB": "KB5077797",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6491",
-        "Date": "2026/01/13",
-        "KB": "KB5073455",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6345",
-        "Date": "2025/12/09",
-        "KB": "KB5071417",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6276",
-        "Date": "2025/11/20",
-        "KB": "KB5070312",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22631.6199",
-        "Date": "2025/11/11",
-        "KB": "KB5068865",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.6133",
-        "Date": "2025/10/28",
-        "KB": "KB5067112",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.6060",
-        "Date": "2025/10/14",
-        "KB": "KB5066793",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.5984",
-        "Date": "2025/09/23",
-        "KB": "KB5065790",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5909",
-        "Date": "2025/09/09",
-        "KB": "KB5065431",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.5840",
-        "Date": "2025/08/26",
-        "KB": "KB5064080",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5771",
-        "Date": "2025/08/19",
-        "KB": "KB5066189",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5768",
-        "Date": "2025/08/12",
-        "KB": "KB5063875",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22631.5699",
-        "Date": "2025/07/22",
-        "KB": "KB5062663",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5624",
-        "Date": "2025/07/08",
-        "KB": "KB5062552",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5549",
-        "Date": "2025/06/26",
-        "KB": "KB5060826",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5472",
-        "Date": "2025/06/10",
-        "KB": "KB5060999",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5415",
-        "Date": "2025/05/31",
-        "KB": "KB5062170",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5413",
-        "Date": "2025/05/27",
-        "KB": "KB5058502",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5335",
-        "Date": "2025/05/13",
-        "KB": "KB5058405",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5262",
-        "Date": "2025/04/22",
-        "KB": "KB5055629",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5192",
-        "Date": "2025/04/11",
-        "KB": "KB5058919",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5189",
-        "Date": "2025/04/08",
-        "KB": "KB5055528",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.5126",
-        "Date": "2025/03/25",
-        "KB": "KB5053657",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.5039",
-        "Date": "2025/03/11",
-        "KB": "KB5053602",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4974",
-        "Date": "2025/02/25",
-        "KB": "KB5052094",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4890",
-        "Date": "2025/02/11",
-        "KB": "KB5051989",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4830",
-        "Date": "2025/01/29",
-        "KB": "KB5050092",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4751",
-        "Date": "2025/01/14",
-        "KB": "KB5050021",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4602",
-        "Date": "2024/12/10",
-        "KB": "KB5048685",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4541",
-        "Date": "2024/11/21",
-        "KB": "KB5046732",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4460",
-        "Date": "2024/11/12",
-        "KB": "KB5046633",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4391",
-        "Date": "2024/10/22",
-        "KB": "KB5044380",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4317",
-        "Date": "2024/10/08",
-        "KB": "KB5044285",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4249",
-        "Date": "2024/09/26",
-        "KB": "KB5043145",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4169",
-        "Date": "2024/09/10",
-        "KB": "KB5043076",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.4112",
-        "Date": "2024/08/27",
-        "KB": "KB5041587",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.4037",
-        "Date": "2024/08/13",
-        "KB": "KB5041585",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3958",
-        "Date": "2024/07/25",
-        "KB": "KB5040527",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3880",
-        "Date": "2024/07/09",
-        "KB": "KB5040442",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3810",
-        "Date": "2024/06/25",
-        "KB": "KB5039302",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3737",
-        "Date": "2024/06/11",
-        "KB": "KB5039212",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3672",
-        "Date": "2024/05/29",
-        "KB": "KB5037853",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3593",
-        "Date": "2024/05/14",
-        "KB": "KB5037771",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3527",
-        "Date": "2024/04/23",
-        "KB": "KB5036980",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3447",
-        "Date": "2024/04/09",
-        "KB": "KB5036893",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3374",
-        "Date": "2024/03/26",
-        "KB": "KB5035942",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3296",
-        "Date": "2024/03/12",
-        "KB": "KB5035853",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3235",
-        "Date": "2024/02/29",
-        "KB": "KB5034848",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3155",
-        "Date": "2024/02/13",
-        "KB": "KB5034765",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.3085",
-        "Date": "2024/01/23",
-        "KB": "KB5034204",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.3007",
-        "Date": "2024/01/09",
-        "KB": "KB5034123",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2861",
-        "Date": "2023/12/12",
-        "KB": "KB5033375",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2792",
-        "Date": "2023/12/04",
-        "KB": "KB5032288",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "22621.2715",
-        "Date": "2023/11/14",
-        "KB": "KB5032190",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "22621.2506",
-        "Date": "2023/10/31",
-        "KB": "KB5031455",
-        "OutOfBand": false,
-        "Preview": true
-      }
-    ],
-    "Name": "Windows 11 23H2"
-  },
-  {
-    "Key": "Windows 11 24H2",
-    "Value": [
-      {
-        "Build": "26200.7705",
-        "Date": "2026/01/29",
-        "KB": "KB5074105",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.7628",
-        "Date": "2026/01/24",
-        "KB": "KB5078127",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7627",
-        "Date": "2026/01/17",
-        "KB": "KB5077744",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7623",
-        "Date": "2026/01/13",
-        "KB": "KB5074109",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7462",
-        "Date": "2025/12/09",
-        "KB": "KB5072033",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7309",
-        "Date": "2025/12/01",
-        "KB": "KB5070311",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.7171",
-        "Date": "2025/11/11",
-        "KB": "KB5068861",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7019",
-        "Date": "2025/10/28",
-        "KB": "KB5067036",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.6901",
-        "Date": "2025/10/20",
-        "KB": "KB5070773",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.6899",
-        "Date": "2025/10/14",
-        "KB": "KB5066835",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.6725",
-        "Date": "2025/09/29",
-        "KB": "KB5065789",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.6588",
-        "Date": "2025/09/22",
-        "KB": "KB5068221",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.6584",
-        "Date": "2025/09/09",
-        "KB": "KB5065426",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.5074",
-        "Date": "2025/08/29",
-        "KB": "KB5064081",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4946",
-        "Date": "2025/08/12",
-        "KB": "KB5063878",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4770",
-        "Date": "2025/07/22",
-        "KB": "KB5062660",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4656",
-        "Date": "2025/07/13",
-        "KB": "KB5064489",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4652",
-        "Date": "2025/07/08",
-        "KB": "KB5062553",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4484",
-        "Date": "2025/06/26",
-        "KB": "KB5060829",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4351",
-        "Date": "2025/06/11",
-        "KB": "KB5063060",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4349",
-        "Date": "2025/06/10",
-        "KB": "KB5060842",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4202",
-        "Date": "2025/05/28",
-        "KB": "KB5058499",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.4066",
-        "Date": "2025/05/27",
-        "KB": "KB5061977",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26100.4061",
-        "Date": "2025/05/13",
-        "KB": "KB5058411",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3915",
-        "Date": "2025/04/25",
-        "KB": "KB5055627",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.3775",
-        "Date": "2025/04/08",
-        "KB": "KB5055523",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3624",
-        "Date": "2025/03/27",
-        "KB": "KB5053656",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.3476",
-        "Date": "2025/03/11",
-        "KB": "KB5053598",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3323",
-        "Date": "2025/02/25",
-        "KB": "KB5052093",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.3194",
-        "Date": "2025/02/11",
-        "KB": "KB5051987",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.3037",
-        "Date": "2025/01/28",
-        "KB": "KB5050094",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.2894",
-        "Date": "2025/01/14",
-        "KB": "KB5050009",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.2605",
-        "Date": "2024/12/10",
-        "KB": "KB5048667",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.2454",
-        "Date": "2024/11/21",
-        "KB": "KB5046740",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.2314",
-        "Date": "2024/11/12",
-        "KB": "KB5046617",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.2161",
-        "Date": "2024/10/24",
-        "KB": "KB5044384",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.2033",
-        "Date": "2024/10/08",
-        "KB": "KB5044284",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1882",
-        "Date": "2024/09/30",
-        "KB": "KB5043178",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.1742",
-        "Date": "2024/09/10",
-        "KB": "KB5043080",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1591",
-        "Date": "2024/08/27",
-        "KB": "KB5041865",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.1457",
-        "Date": "2024/08/13",
-        "KB": "KB5041571",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1301",
-        "Date": "2024/07/30",
-        "KB": "KB5040529",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.1150",
-        "Date": "2024/07/09",
-        "KB": "KB5040435",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.1000",
-        "Date": "2024/06/28",
-        "KB": "KB5039304",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26100.863",
-        "Date": "2024/06/15",
-        "KB": "KB5039239",
-        "OutOfBand": false,
-        "Preview": false
-      }
-    ],
-    "Name": "Windows 11 24H2"
-  },
-  {
-    "Key": "Windows 11 25H2",
-    "Value": [
-      {
-        "Build": "26200.7705",
-        "Date": "2026/01/29",
-        "KB": "KB5074105",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.7628",
-        "Date": "2026/01/24",
-        "KB": "KB5078127",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7627",
-        "Date": "2026/01/17",
-        "KB": "KB5077744",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7623",
-        "Date": "2026/01/13",
-        "KB": "KB5074109",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7462",
-        "Date": "2025/12/09",
-        "KB": "KB5072033",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7309",
-        "Date": "2025/12/01",
-        "KB": "KB5070311",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.7171",
-        "Date": "2025/11/11",
-        "KB": "KB5068861",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26200.7019",
-        "Date": "2025/10/28",
-        "KB": "KB5067036",
-        "OutOfBand": false,
-        "Preview": true
-      },
-      {
-        "Build": "26200.6901",
-        "Date": "2025/10/20",
-        "KB": "KB5070773",
-        "OutOfBand": true,
-        "Preview": false
-      },
-      {
-        "Build": "26200.6899",
-        "Date": "2025/10/14",
-        "KB": "KB5066835",
-        "OutOfBand": false,
-        "Preview": false
-      },
-      {
-        "Build": "26100.6725",
-        "Date": "2025/09/29",
-        "KB": "KB5065789",
-        "OutOfBand": false,
-        "Preview": true
-      }
-    ],
-    "Name": "Windows 11 25H2"
+    "Name": "Windows 11 26H1"
   }
 ]
