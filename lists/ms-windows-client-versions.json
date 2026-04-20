@@ -1164,6 +1164,13 @@
     "Key": "Windows 10 1607",
     "Value": [
       {
+        "Build": "14393.9062",
+        "Date": "2026/04/19",
+        "KB": "KB5091572",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "14393.9060",
         "Date": "2026/04/14",
         "KB": "KB5082198",
@@ -3050,6 +3057,13 @@
         "Date": "2017/04/05",
         "KB": "KB4016251",
         "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "14393.9062",
+        "Date": "2026/04/19",
+        "KB": "KB5091572",
+        "OutOfBand": true,
         "Preview": false
       },
       {
@@ -7040,6 +7054,13 @@
     "Key": "Windows 10 1809",
     "Value": [
       {
+        "Build": "17763.8647",
+        "Date": "2026/04/19",
+        "KB": "KB5091573",
+        "OutOfBand": true,
+        "Preview": false
+      },
+      {
         "Build": "17763.8644",
         "Date": "2026/04/14",
         "KB": "KB5082123",
@@ -8443,6 +8464,13 @@
         "Date": "2019/05/29",
         "KB": "KB4497935",
         "OutOfBand": false,
+        "Preview": false
+      },
+      {
+        "Build": "17763.8647",
+        "Date": "2026/04/19",
+        "KB": "KB5091573",
+        "OutOfBand": true,
         "Preview": false
       },
       {
