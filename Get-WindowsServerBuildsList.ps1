@@ -8,7 +8,7 @@ Function Get-WindowsServerBuildsList {
 
     Foreach ($URI in $WindowsVersionUpdateHistoryURIs) {
         $x = Invoke-WebRequest -UseBasicParsing -Uri $URI
-        $NavLinks = $x.links | ? { $_.class -eq "supLeftNavLink" }
+        $NavLinks = $x.links | ? { $_.class -eq "learnRenderLeftNavLink" }
 
         If ($Null -ne ($NavLinks.Outerhtml | ? { $_ -match "update history" })) {
             $UpdateHistoryNavLinks = $NavLinks | ? { $_.outerHTML -match "Update history" }
