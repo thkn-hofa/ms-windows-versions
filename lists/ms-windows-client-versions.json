@@ -8262,6 +8262,13 @@
     "Key": "Windows 11 24H2",
     "Value": [
       {
+        "Build": "26200.9278",
+        "Date": "2026/08/27",
+        "KB": "KB5120998",
+        "OutOfBand": false,
+        "Preview": true
+      },
+      {
         "Build": "26200.9168",
         "Date": "2026/08/11",
         "KB": "KB5121003",
