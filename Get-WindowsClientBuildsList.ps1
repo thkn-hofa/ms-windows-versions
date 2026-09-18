@@ -1,7 +1,7 @@
-Function Get-WindowsServerBuildsList {
+Function Get-WindowsClientBuildsList {
     $WindowsVersionUpdateHistoryURIs = @(
-        "https://support.microsoft.com/en-us/topic/windows-11-version-22h2-update-history-ec4229c3-9c5f-4e75-9d6d-9025ab70fcce"
-        "https://support.microsoft.com/en-us/topic/windows-10-and-windows-server-2019-update-history-725fc2e1-4443-6831-a5ca-51ff5cbcb059"
+        "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/02/windows-11-version-26h1-update-history"
+        "https://support.microsoft.com/en-us/servicing/os/windows-10/2022/09/windows-10-update-history"
     )
 
     $Versions = [Hashtable]@{}
@@ -39,33 +39,48 @@ Function Get-WindowsServerBuildsList {
         Foreach ($S in $Sections.Keys) {
             $Title = ([Xml]($s.outerHTML)).a."#text"
 
-            Foreach ($T in @(($Title -split "\band\b") | ? { $_ -match "Windows(?!\s+Server)" })) {
-                If ($t -match "initial version released") {
-                    # Skip
-                    continue
-                }
-                ElseIf ($t -match "version") {
-                    $Matches = [Regex]::Matches($T,"(?<flavour>Windows \d+).*version (?<version>[\w]+)",[System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+            Foreach ($T in @(($Title -split "\band\b") | ? { $_ -match "Server" })) {
+                If ($t -match "version") {
+                    $Matches = [Regex]::Matches($T,"version (?<version>[\w]+)",[System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
                 }
                 Else {
-                    $Matches = [Regex]::Matches($T,"Windows(?!\s+Server)+,? (?<version>[\w]+)",[System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+                    $Matches = [Regex]::Matches($T,"Server,? (?<version>[\w]+)",[System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
                 }
-                $VersionNumber = "{0} {1}" -f (($Matches.Groups | ? { $_.name -eq "Flavour"}).Value | Select -Last 1),(($Matches.Groups | ? { $_.name -eq "Version"}).Value | Select -Last 1)
+                $VersionNumber = ($Matches.Groups | ? { $_.name -eq "Version"}).Value | Select -Last 1
                 Write-Verbose ("{0} - {1}" -f $T, $VersionNumber)
-
                 If ($Versions.Keys -notcontains $VersionNumber) {
                     $Versions.Add($VersionNumber, $(New-Object System.Collections.Generic.List[PSCustomObject]))
                 }
 
-                Foreach ($V in ($Sections[$S] | % { ([Xml]($_.outerHTML)).a."#text" })) {
+                # Foreach ($V in ($Sections[$S] | % { ([Xml]($_.outerHTML)).a."#text" })) {
+                Foreach ($Href in $Sections[$S]) {
+                    $V =  ([Xml]($Href.outerHTML)).a."#text"
+
                     # $v
                     $Regex = [Regex]::Matches($V, "(?<date>^[\w\,\s]+).*(?<kb>KB\d+\b).*OS Builds? (?<build>[\d\.]+)")
-                    If ([String]::IsNullOrEmpty($Regex)) { Continue }
                     $BuildNumber = ($regex.groups | ? { $_.Name -eq "build" }).Value
                     If (![String]::IsNullOrEmpty($BuildNumber) -and $Versions[$VersionNumber].Build -notcontains $BuildNumber) {
+                        $ParsedDate = [DateTime]::new(0)
+                        $DateValid = [DateTime]::TryParse(($regex.groups | ? { $_.Name -eq "date" }).Value, [ref]$ParsedDate)
+
+                        ## If parsing wasn't valid, open the page to check meta data 'release-date'
+                        If (-not $DateValid) {
+                            Write-Verbose ("Date parsing failed for build {0} with raw date string '{1}'" -f $BuildNumber, ($regex.groups | ? { $_.Name -eq "date" }).Value)
+
+                            $PageURI = [Uri]::new([uri]$URI, $Href.href).AbsoluteUri
+                            
+                            $PageContent = Invoke-WebRequest -usebasicparsing -Uri $PageURI
+                            $PageMetaEntries = [Regex]::Matches($PageContent.Content, "<meta\s+name=['""](?<name>[^'""]+)['""]\s+content=['""](?<content>[^'""]+)['""]\s*/?>", [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+                            $PageMetaEntriesXML = [Xml]("<root>" + ($PageMetaEntries | ForEach-Object { $_.Value }) + "</root>")
+                            $ReleaseDateMeta = ($PageMetaEntriesXML.root.meta | ? { $_.name -eq "release-date" }).content
+                            If (![String]::IsNullOrEmpty($ReleaseDateMeta)) {
+                                $DateValid = [DateTime]::TryParse($ReleaseDateMeta, [System.Globalization.CultureInfo]::InvariantCulture, [System.Globalization.DateTimeStyles]::None, [ref]$ParsedDate)
+                            }
+                        }
+
                         $Versions[$VersionNumber].Add([PSCustomObject][Ordered]@{
                                 Build = $BuildNumber
-                                Date = ([DateTime]::Parse(($regex.groups | ? { $_.Name -eq "date" }).Value)).ToString("yyyy/MM/dd")
+                                Date = $ParsedDate.ToString("yyyy/MM/dd")
                                 KB = ($regex.groups | ? { $_.Name -eq "kb" }).Value
                                 OutOfBand = $V -match "out\-of\-band"
                                 Preview = $V -match "preview"
@@ -80,4 +95,4 @@ Function Get-WindowsServerBuildsList {
     $Versions.GetEnumerator() | Sort-Object -Property Name
 }
 
-Get-WindowsServerBuildsList
+Get-WindowsClientBuildsList
