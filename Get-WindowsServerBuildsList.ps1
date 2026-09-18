@@ -14,7 +14,7 @@ Function Get-WindowsServerBuildsList {
             $UpdateHistoryNavLinks = $NavLinks | ? { $_.outerHTML -match "Update history" }
         }
         Else {
-            $UpdateHistoryNavLinks = $NavLinks | ? { $_.outerHTML -match "Windows Server" } | Sort -Unique href
+            $UpdateHistoryNavLinks = $NavLinks | ? { $_.outerHTML -match "Windows Server" } | Sort-Object -Unique href
         }
 
         $SectionFirsts = $UpdateHistoryNavLinks | Sort-Object -Unique @{E={([Xml]($_.outerHTML)).a."#text"}},href | Sort-Object @{E={$NavLinks.IndexOf($_)}}
