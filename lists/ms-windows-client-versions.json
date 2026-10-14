@@ -3,6 +3,13 @@
     "Key": "1809",
     "Value": [
       {
+        "Build": "17763.9376",
+        "Date": "2026/10/13",
+        "KB": "KB5126651",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "17763.9247",
         "Date": "2026/09/14",
         "KB": "KB5129238",
@@ -2162,6 +2169,13 @@
     "Key": "2016",
     "Value": [
       {
+        "Build": "14393.9612",
+        "Date": "2026/10/13",
+        "KB": "KB5126868",
+        "OutOfBand": false,
+        "Preview": false
+      },
+      {
         "Build": "14393.9514",
         "Date": "2026/09/14",
         "KB": "KB5129239",
@@ -3511,6 +3525,13 @@
   {
     "Key": "2019",
     "Value": [
+      {
+        "Build": "17763.9376",
+        "Date": "2026/10/13",
+        "KB": "KB5126651",
+        "OutOfBand": false,
+        "Preview": false
+      },
       {
         "Build": "17763.9247",
         "Date": "2026/09/14",
